@@ -61,7 +61,6 @@ CORS_ALLOW_HEADERS = (
 # Application definition
 
 INSTALLED_APPS = [
-    'friends'
     # 'django.contrib.admin',
     # 'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -69,6 +68,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
+    'friends'
 ]
 
 MIDDLEWARE = [
