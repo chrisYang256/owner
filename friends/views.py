@@ -45,9 +45,6 @@ class OwnerView(View):
         return JsonResponse({"results": with_my_dog}, status=200)
 
 
-
-
-
 class DogView(View):
     def post(self, request):
         data = json.loads(request.body)
